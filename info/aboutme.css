@@ -1,0 +1,43 @@
+.flexContainer{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    flex-direction: row;
+    list-style-type: none;
+    align-content: center;
+}
+
+.flexContainer > li{
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    margin: 5px 5px;
+    padding: 5px 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/*background*/
+body{
+    background-image: url("bg.avif");
+    background-size: 5000px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.school{
+    font-style:italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.year{
+    list-style:square;
+}

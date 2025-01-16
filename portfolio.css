@@ -1,0 +1,68 @@
+#webHeader{
+    text-align: center;
+    color : white;
+    font-family: fantasy;
+    font-size:xx-large;
+    border: 3px solid white  ;
+    border-radius: 8px;
+}
+
+.flexContainer{
+    display: flex;
+    align-items: left;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    list-style-type: none;
+    background-position: 10px 10px;
+    background-color: darkslategray;
+}
+
+.flexContainer > div{
+    background-color: rgb(44, 93, 93);
+    width: 1000px;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border: 5px solid white;
+    border-radius: 8px;
+}
+
+.flexContainer > li{
+    background-color: rgb(47, 77, 77);
+    width: 1000px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.leftContainer{
+    display: flex
+}
+
+li{
+    font-size: medium;
+}
+body{
+    background: url("moon.webp") repeat fixed;  
+}
+
+a:link{
+    color: white;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: darkgray;
+}
+a:active{
+    color: green;
+}
+
+.block{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para{
+    text-align: left;
+    font-size: larger;
+}
